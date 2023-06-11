@@ -1,0 +1,87 @@
+@import "./reset.css";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;900&family=Montserrat:wght@400;700&family=Playfair+Display:wght@400;700&display=swap');
+
+body{
+    font-family: sans-serif;
+    padding-top: 60px;
+    padding-left: 60px;
+    font-family: 'Montserrat', serif;
+    font-weight: 400;
+}
+
+.card{
+    border: 1px solid #DBB9B9;
+    background: #FFFFFF;
+    width: 420px;
+    padding: 20px 40px 60px;
+    text-align: center;
+}
+
+.card-img{
+    margin-bottom: 20px;
+}
+
+.card-title {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 43px;
+    text-align: center;
+    color: #CD2626;
+    margin-bottom: 20px;
+}
+
+.card-text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color:#000000;
+    margin-bottom: 30px;
+}
+
+.card-text a{
+    color: #BD3030;
+    text-decoration: underline;
+}
+
+.card-text p + p{
+    margin-top: 16px;
+}
+
+.price {
+    font-size: 32px;
+    font-size: 32px;
+    line-height: 43px;
+    margin-bottom: 30px;
+}
+
+.price span{
+    font-weight: 700;
+}
+
+.button{
+    background: #CD2626;
+    border-radius: 8px;
+    display: inline-block;
+    padding: 14px 75px 19px;
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 700;
+    border: 1px solid #CD2626;
+    transition: 
+    background-color 0.2s ease-in,
+    color 0.2s ease-in, 
+    border 0.2s ease-in ;
+}
+
+.button:hover, .button:focus{
+    background-color: #E41919;
+    border: 1px solid #E41919;
+}
+
+.button:active{
+    background-color: #8E1010;
+    color: #FFF;
+    border: 1px solid #8E1010;
+    position: relative;
+    top: 1px;
+}
