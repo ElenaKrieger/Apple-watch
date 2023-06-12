@@ -5,13 +5,11 @@ body{
     padding-top: 60px;
     padding-left: 60px;
     font-family: 'Montserrat', serif;
-    font-weight: 400;
     line-height: 1.21;
 }
 
 .card{
     border: 1px solid #DBB9B9;
-    background-color: #FFFFFF;
     width: 420px;
     padding: 20px 40px 50px;
     text-align: center;
@@ -24,17 +22,15 @@ body{
 .card-title {
     font-size: 32px;
     font-weight: 700;
-    text-align: center;
     color: #CD2626;
     margin-bottom: 30px;
 }
 
 .card-text {
     font-size: 14px;
-    font-weight: 400;
-    color:#000000;
     margin-bottom: 30px;
     line-height: 1.5;
+    padding: 0 5px;
 }
 
 .card-text a{
@@ -46,12 +42,12 @@ body{
     margin-top: 14px;
 }
 
-.price {
+.card-price {
     font-size: 26px;
     margin-bottom: 30px;
 }
 
-.price span{
+.card-price span{
     font-weight: 700;
 }
 
@@ -59,7 +55,6 @@ body{
     background-color: #CD2626;
     line-height: 1.2;
     border-radius: 8px;
-    display: inline-block;
     padding: 16px 42px 17px;
     color: #FFF;
     font-size: 22px;
