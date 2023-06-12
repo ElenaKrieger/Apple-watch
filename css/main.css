@@ -2,40 +2,39 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;900&family=Montserrat:wght@400;700&family=Playfair+Display:wght@400;700&display=swap');
 
 body{
-    font-family: sans-serif;
     padding-top: 60px;
     padding-left: 60px;
     font-family: 'Montserrat', serif;
     font-weight: 400;
+    line-height: 1.21;
 }
 
 .card{
     border: 1px solid #DBB9B9;
-    background: #FFFFFF;
+    background-color: #FFFFFF;
     width: 420px;
-    padding: 20px 40px 60px;
+    padding: 20px 40px 50px;
     text-align: center;
 }
 
 .card-img{
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .card-title {
     font-size: 32px;
     font-weight: 700;
-    line-height: 43px;
     text-align: center;
     color: #CD2626;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .card-text {
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 400;
-    line-height: 24px;
     color:#000000;
     margin-bottom: 30px;
+    line-height: 1.5;
 }
 
 .card-text a{
@@ -44,13 +43,11 @@ body{
 }
 
 .card-text p + p{
-    margin-top: 16px;
+    margin-top: 14px;
 }
 
 .price {
-    font-size: 32px;
-    font-size: 32px;
-    line-height: 43px;
+    font-size: 26px;
     margin-bottom: 30px;
 }
 
@@ -59,14 +56,14 @@ body{
 }
 
 .button{
-    background: #CD2626;
+    background-color: #CD2626;
+    line-height: 1.2;
     border-radius: 8px;
     display: inline-block;
-    padding: 14px 75px 19px;
+    padding: 16px 42px 17px;
     color: #FFF;
-    font-size: 24px;
+    font-size: 22px;
     font-weight: 700;
-    border: 1px solid #CD2626;
     transition: 
     background-color 0.2s ease-in,
     color 0.2s ease-in, 
@@ -75,13 +72,11 @@ body{
 
 .button:hover, .button:focus{
     background-color: #E41919;
-    border: 1px solid #E41919;
 }
 
 .button:active{
     background-color: #8E1010;
     color: #FFF;
-    border: 1px solid #8E1010;
     position: relative;
     top: 1px;
 }
